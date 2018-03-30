@@ -978,7 +978,7 @@ ja: &DEFAULT_JA
   loading_label              : "読み込み中..."
   search_placeholder_text    : "検索キーワードを入力してください..."
   results_found              : "件"
-ja-JP:
+JP:
   <<: *DEFAULT_JA
 
 # Another locale

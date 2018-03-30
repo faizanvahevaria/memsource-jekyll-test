@@ -11,9 +11,23 @@
               {% assign domain = site.url | append: site.baseurl %}
             {% endif %}
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="  {{ domain }}/{{ page.lang }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {% endfor %}
+
+            <li class="masthead__menu-item">
+              <a href="/" title="en">EN</a>
+            </li>
+            <li class="masthead__menu-item">
+              <a href="/jp/" title="JP">JP</a>
+            </li>
+            <li class="masthead__menu-item">
+              <a href="/de/" title="de">DE</a>
+            </li>
+            <li class="masthead__menu-item">
+              <a href="/ru/" title="ru">RU</a>
+            </li>
+
         </ul>
         {% if site.search == true %}
         <button class="search__toggle" type="button">

@@ -1,0 +1,24 @@
+.title{
+  width: 100%;
+  height: 200px;
+  background: url("/img/blog_main_hero.png");
+  text-align: center;
+  color: white;
+}
+.main-blog{
+  max-width: 100%;
+  .left{
+    width: 60%;
+    display: inline-block;
+  }
+  .right{
+    text-align: left;
+    width: 39%;
+    display: inline-block;
+    position: relative;
+    .cat{
+      position: relative;
+      top: 0;
+    }
+  }
+}

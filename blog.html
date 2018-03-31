@@ -1,5 +1,33 @@
 ---
-layout: blog
+layout: posts
 author_profile: true
 title: "Blog"
 ---
+
+
+<div class="title">
+  Blog
+</div>
+<div class="main-blog">
+  <div class="left">
+    {% for blog in site.posts %}
+    <img src="{{ blog.img }}" alt="">
+    <h1>{{ blog.title }}</h1>
+    <p><small><a href="#">{{ blog.categories }}</a> <a href="">{{ blog.date }}</a></small></p>
+    {{ blog.content}}
+    {% endfor %}
+  </div>
+  <!-- /////////////////////blog left side -->
+  <div class="right">
+    <div class="cat">
+      <h3>Catagory</h3>
+      <ul>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- /////////////////////blog right side -->
+
+</div>

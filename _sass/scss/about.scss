@@ -1,0 +1,47 @@
+.about{
+  text-align: center;
+  font-size: 17px;
+
+
+
+  &__title{
+
+    font-weight: 700;
+    margin: 50px 0;
+    text-transform: uppercase;
+  }
+
+}
+.team{
+    font-weight: 700;
+
+  &__box{
+    text-align: center;
+    margin: 50px 0;
+  }
+  &__img{
+  
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  &__name{
+    text-transform: capitalize;
+    margin: 0;
+    color: #4286f4;
+  }
+  &__post{
+    margin: 0;
+  }
+  &__department{
+    margin: 0;
+    color: #4286f4;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__bottom{
+    margin: 0 auto;
+    width: 125px;
+    border-bottom:.5px solid;
+  }
+}
